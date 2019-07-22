@@ -7,323 +7,464 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Japan Planner</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <div class="ui container">
-        <table class="ui small celled padded table definition">
-            <h2 class="ui header">Tokyo</h2>
-            <thead>
-                <tr>
-                    <th class="single line"></th>
-                    <th>Location</th>
-                    <th>Activities</th>
-                    <th>Restaurants Idea</th>
-                    <th>Estimated Time (from tokyo)</th>
-                    <th>Metro</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 1</h2>
-                    </td>
-                    <td class="single line">
-                        Shinjuku
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Tokyo Metropolitan Government Building's two free 45th-floor observation decks
-                                (Tokyo-Tocho)
-                            </li>
-                            <li>Goyen National Garden
-                            </li>
-                            <li>Meiji Jingu Shrine</li>
-                            <li>Golden Gai</li>
-                            <li>Omoide Yokosho (Back Alley)</li>
-                            <li>Isetan Department Store</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Mikore Shokudo</li>
-                            <li>Shabu Shabu</li>
-                            <li>Menya Musashi</li>
-                            <li>Sushimaru</li>
-                            <li>Yakiniku Blackhole</li>
-                            <li>COCO Ichibanya (curry, tonkatsu)</li>
-                            <li>Ninja Shinjuku</li>
-                            <li>Robot Restaurant (expensive)</li>
-                            <li>Funabashiya (tempura)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">30 min</td>
-                    <td>Marunouchi Line (Red)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 2</h2>
-                    </td>
-                    <td class="single line">
-                        Shibuya
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Shibuya Crossing
-                            </li>
-                            <li>Shopping
-                            </li>
-                            <li>Hachiko Statue</li>
-                            <li>Nonbei Yokocho</li>
-                            <li>Panchiko (arcade)</li>
-                            <li>Harajuku</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Genki Sushi (5:00-7:00 p.m recommended time)</li>
-                            <li>Ichiran Ramen Spain-zaka (6:00–9:00 a.m recommended time)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">35 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 3</h2>
-                    </td>
-                    <td class="single line">
-                        Asakusa
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Sensoji Temple
-                            </li>
-                            <li>Nakamise Shopping Street
-                            </li>
-                            <li>Nishi Sando</li>
-                            <li>Tokyo Skytree</li>
-                            <li>Asahi Tower (Sake)</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Daikokuya Tempura
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">1 h 10 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 4</h2>
-                    </td>
-                    <td class="single line">
-                        Chiyoda
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Imperial Palace
-                            </li>
-                            <li>Edo Castle
-                            </li>
-                            <li>Yasukuni Shrine</li>
-                            <li>Tokyo Tower</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Buta Daigaku Jinbo-Cho Kousha
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">40 - 50 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 5</h2>
-                    </td>
-                    <td class="single line">
-                        Odaiba
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>TeamLab Borderless Museum <br>
-                                Entrance Pass: 3,200 Yen <br>
-                                Night Pass: 2,900 Yen (6:00 p.m)
-                            </li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Buta Daigaku Jinbo-Cho Kousha
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">1 h 20 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-            </tbody>
-        </table>
 
+        <div class="ui styled fluid accordion">
+            <!-- Tokyo -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Tokyo</span>
+                    <span class="duration text-capitalize">1 Week</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui small celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 1 - Shinjuku</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Tokyo Metropolitan Government Building's two free 45th-floor observation
+                                            decks
+                                            (Tokyo-Tocho)
+                                        </li>
+                                        <li>Goyen National Garden
+                                        </li>
+                                        <li>Meiji Jingu Shrine</li>
+                                        <li>Golden Gai</li>
+                                        <li>Omoide Yokosho (Back Alley)</li>
+                                        <li>Isetan Department Store</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Mikore Shokudo</li>
+                                        <li>Shabu Shabu</li>
+                                        <li>Menya Musashi</li>
+                                        <li>Sushimaru</li>
+                                        <li>Yakiniku Blackhole</li>
+                                        <li>COCO Ichibanya (curry, tonkatsu)</li>
+                                        <li>Ninja Shinjuku</li>
+                                        <li>Robot Restaurant (expensive)</li>
+                                        <li>Funabashiya (tempura)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 2 - Shibuya</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Shibuya Crossing
+                                        </li>
+                                        <li>Shopping
+                                        </li>
+                                        <li>Hachiko Statue</li>
+                                        <li>Nonbei Yokocho</li>
+                                        <li>Panchiko (arcade)</li>
+                                        <li>Harajuku</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Genki Sushi (5:00-7:00 p.m recommended time)</li>
+                                        <li>Ichiran Ramen Spain-zaka (6:00–9:00 a.m recommended time)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 3 - Asakusa</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Sensoji Temple
+                                        </li>
+                                        <li>Nakamise Shopping Street
+                                        </li>
+                                        <li>Nishi Sando</li>
+                                        <li>Tokyo Skytree</li>
+                                        <li>Asahi Tower (Sake)</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Daikokuya Tempura
+                                        </li>
+                                        <li>Yonekyuuhonten (japanese hot pot)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 4 - Chiyoda</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Imperial Palace
+                                        </li>
+                                        <li>Edo Castle
+                                        </li>
+                                        <li>Yasukuni Shrine</li>
+                                        <li>Tokyo Tower</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Buta Daigaku Jinbo-Cho Kousha
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 5 - Odaiba</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>TeamLab Borderless Museum <br>
+                                            Entrance Pass: 3,200 Yen <br>
+                                            Night Pass: 2,900 Yen (6:00 p.m)
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
 
-        <table class="ui celled padded table definition">
-            <h2 class="ui header">Kyoto</h2>
-            <thead>
-                <tr>
-                    <th class="single line"></th>
-                    <th>Location</th>
-                    <th>Activities</th>
-                    <th>Restaurants Idea</th>
-                    <th>Estimated Time (from tokyo)</th>
-                    <th>Metro</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 6</h2>
-                    </td>
-                    <td class="single line">
-                        kyoto Downtown
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>kyoto downtown
-                            </li>
-                            <li>
-                                Nishiki Market
-                            </li>
-                            <li>Yasaka Shrine</li>
-                            <li>Gion Area (geisha)</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Mikore Shokudo</li>
-                            <li>Shabu Shabu</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">15 min</td>
-                    <td>Marunouchi Line (Red)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 7</h2>
-                    </td>
-                    <td class="single line">
-                        Kyoto
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Fushimi Inari Shrine
-                            </li>
-                            <li>Kiyomizu Temple
-                            </li>
-                            <li>Sanjusangendo Temple</li>
-                            <li>Nonbei Yokocho</li>
-                            <li>Panchiko (arcade)</li>
-                            <li>Harajuku</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Nekomata Soba Noodles (Sanjusangendo)</li>
-                            <li>広島風お好み焼き・創作鉄板料理 かめはめは【hiroshima style okonomiyaki
-                                Teppanyaki kamehameha】</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">20 - 40 min from one area to another</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 8</h2>
-                    </td>
-                    <td class="single line">
-                        Kyoto
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Arashiyama Bamboo Grove
-                            </li>
-                            <li>Tenryu-ji Temple
-                            </li>
-                            <li> Arashiyama Monkey Park
-                            </li>
-                            <li>Golden Pavilion at the Kinkaku-ji Temple</li>
-                            <li>Shimogamo Jinja</li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Daikokuya Tempura
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">1 h 10 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 9</h2>
-                    </td>
-                    <td class="single line">
-                        Kyoto
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Himeji Castle
-                            </li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Buta Daigaku Jinbo-Cho Kousha
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">40 - 50 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-                <tr>
-                    <td class="two wide">
-                        <h2 class="ui center aligned header">Day 10</h2>
-                    </td>
-                    <td class="single line">
-                        Osaka
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>TeamLab Borderless Museum <br>
-                                Entrance Pass: 3,200 Yen <br>
-                                Night Pass: 2,900 Yen (6:00 p.m)
-                            </li>
-                        </ul>
-                    </td>
-                    <td class="four wide">
-                        <ul>
-                            <li>Buta Daigaku Jinbo-Cho Kousha
-                            </li>
-                            <li>Yonekyuuhonten (japanese hot pot)</li>
-                        </ul>
-                    </td>
-                    <td class="one wide">1 h 20 min</td>
-                    <td>Yamanote Line (JR Line) <br>or Ginza Line (Orange)</td>
-                </tr>
-            </tbody>
-        </table>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 6 - Ginza</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Ginza Chuo Doori</li>
+                                        <li>Imperial Palace</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Hakone -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Hakone</span>
+                    <span class="duration text-capitalize">1 Day</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 8 - Hakone</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Kyoto -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Kyoto</span>
+                    <span class="duration text-capitalize">4 Day</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 9</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>kyoto downtown
+                                        </li>
+                                        <li>
+                                            Nishiki Market
+                                        </li>
+                                        <li>Yasaka Shrine</li>
+                                        <li>Gion Area (geisha)</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Mikore Shokudo</li>
+                                        <li>Shabu Shabu</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 10</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Fushimi Inari Shrine
+                                        </li>
+                                        <li>Kiyomizu Temple
+                                        </li>
+                                        <li>Sanjusangendo Temple</li>
+                                        <li>Nonbei Yokocho</li>
+                                        <li>Panchiko (arcade)</li>
+                                        <li>Harajuku</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Nekomata Soba Noodles (Sanjusangendo)</li>
+                                        <li>広島風お好み焼き・創作鉄板料理 かめはめは【hiroshima style okonomiyaki
+                                            Teppanyaki kamehameha】</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 11</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Arashiyama Bamboo Grove
+                                        </li>
+                                        <li>Tenryu-ji Temple
+                                        </li>
+                                        <li> Arashiyama Monkey Park
+                                        </li>
+                                        <li>Golden Pavilion at the Kinkaku-ji Temple</li>
+                                        <li>Shimogamo Jinja</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Daikokuya Tempura
+                                        </li>
+                                        <li>Yonekyuuhonten (japanese hot pot)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 12</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Himeji Castle
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Buta Daigaku Jinbo-Cho Kousha
+                                        </li>
+                                        <li>Yonekyuuhonten (japanese hot pot)</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Osaka -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Osaka</span>
+                    <span class="duration text-capitalize">2 Day</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 13</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                        <li>Osaka Castle</li>
+                                        <li>Osaka Aquarium Kaiyukan</li>
+                                        <li>Kuromon Market</li>
+                                        <li>Owl cafe</li>
+                                        <li>Dotonbori & Shinsaibasi (Night)</li>
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                        <li>Kobe Beef</li>
+                                        <li>Yakiniku Rokko (all you can eat BBQ)</li>
+                                        <li>Yakiniku M (Matsusaka Beef)</li>
+                                        <li>Tonkatsu Maisen</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Nara -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Nara</span>
+                    <span class="duration text-capitalize">1 Day</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="three wide">
+                                    <h2 class="ui center aligned header">Day 14</h2>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+
+                                    </ul>
+                                </td>
+                                <td class="five wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Kobe -->
+            <div class="accordion-item">
+                <div class="title flex-sb">
+                    <span class="city">Kobe</span>
+                    <span class="duration text-capitalize">1 Day</span>
+                    <i class="dropdown icon"></i>
+                </div>
+                <div class="accordion-content hide-dropdown">
+                    <table class="ui celled padded table definition">
+                        <thead class="hide-on-mobile">
+                            <tr>
+                                <th class="single line"></th>
+                                <th>Activities</th>
+                                <th>Restaurants Idea</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="two wide">
+                                    <h2 class="ui center aligned header">Day 15</h2>
+                                </td>
+                                <td class="four wide">
+                                    <h4 class="hide-on-large">Activities:</h4>
+                                    <ul>
+                                    </ul>
+                                </td>
+                                <td class="four wide">
+                                    <h4 class="hide-on-large">Restaurants:</h4>
+                                    <ul>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

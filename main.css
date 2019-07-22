@@ -1,0 +1,164 @@
+/**************************************
+/* OVERRIDE
+/* ***********************************/
+
+.ui.styled.accordion .accordion .title,
+.ui.styled.accordion .title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 1em 1em;
+  color: rgba(0, 0, 0, 0.87);
+  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-transition: background-color 0.1s ease, color 0.1s ease;
+  transition: background-color 0.1s ease, color 0.1s ease;
+}
+
+.ui.styled.accordion .accordion .title:hover,
+.ui.styled.accordion .title:hover {
+  color: white;
+  background: #1568ff;
+}
+
+.ui.accordion .title:not(.ui) {
+  font-family: Roboto, "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.ui.styled.accordion,
+.ui.styled.accordion .accordion {
+  border-radius: initial;
+  box-shadow: none;
+}
+
+/**************************************
+/* HELPER CLASS
+/* ***********************************/
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hide-dropdown,
+.hide-on-large {
+  display: none;
+}
+
+/**************************************
+/* GLOBAL
+/* ***********************************/
+
+body {
+  background: #3e3d3d;
+}
+
+/**************************************
+/* ACCORDION
+/* ***********************************/
+
+.accordion {
+  margin-top: 100px;
+}
+
+.accordion-content {
+  margin: 0;
+  padding: 0.5em 1em 1.5em;
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+}
+
+.city {
+  flex: 1;
+  /* color: rgba(0, 0, 0, 0.87); */
+  color: inherit;
+}
+
+.icon {
+  color: inherit;
+}
+
+.duration {
+  flex: 1;
+  font-weight: 400;
+  color: #6d6d6d;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.accordion-item:hover .duration {
+  color: white;
+}
+
+.active-dropdown .icon {
+  transform: rotate(90deg) !important;
+}
+
+.active-dropdown .title {
+  background: #1568ff;
+}
+
+.active-dropdown .city,
+.active-dropdown .duration,
+.active-dropdown .icon {
+  color: white;
+}
+
+.active-dropdown .accordion-content {
+  opacity: 1;
+}
+
+/**************************************
+/* TABLE
+/* ***********************************/
+
+@media only screen and (max-width: 767px) {
+  .accordion {
+    margin-top: 30px;
+  }
+
+  .accordion-content {
+    padding: 0;
+  }
+
+  .ui.table:not(.unstackable) tr > td,
+  .ui.table:not(.unstackable) tr > th {
+    padding: 1.25em 3.75em !important;
+  }
+
+  .ui.table:not(.unstackable) tr {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .ui.table {
+    border: none;
+  }
+
+  .ui.definition.table tr td.definition,
+  .ui.definition.table tr td:first-child:not(.ignored) {
+    background: rgb(21, 50, 107);
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .ui.header {
+    color: inherit;
+  }
+
+  .hide-on-mobile {
+    display: none !important;
+  }
+
+  .hide-on-large {
+    display: block;
+  }
+}
